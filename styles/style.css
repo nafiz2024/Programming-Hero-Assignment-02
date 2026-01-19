@@ -3,3 +3,88 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Body Style */
+body {
+  background-color: #1a0b2e;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Shared Style */
+.font_inter_sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn_grad {
+  background: linear-gradient(
+    to top right,
+    #f7e93f 0%,
+    #fb09b4 51%,
+    #9100f8 100%
+  );
+  background-position: 100% 0;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  padding: 12.5px 16px;
+  border-radius: 10000px;
+  transition: 0.5s;
+}
+
+.btn_grad:hover {
+  background-position: 0 100%;
+}
+
+.text_grad {
+  background-image: linear-gradient(
+    to top right,
+    #f7e93f 0%,
+    #fb09b4 51%,
+    #9100f8 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navbar Style */
+.navbar {
+  width: 62.5%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0px;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff6e7f 0%,
+    #bfe9ff 51%,
+    #ff6e7f 100%
+  );
+}
