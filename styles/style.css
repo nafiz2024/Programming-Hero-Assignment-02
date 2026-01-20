@@ -94,6 +94,15 @@ body {
   font-weight: 600;
 }
 
+.nav_icon {
+  display: none;
+  font-size: 24px;
+}
+
+.nav_icon a {
+  cursor: pointer;
+}
+
 /* Banner Style */
 
 #banner {
@@ -126,14 +135,13 @@ body {
 
 .banner_btn {
   width: 70px;
-  transform: translate(835%, 60%);
+  transform: translate(970%, 60%);
 }
 
 .banner_btn p {
   background-color: #00ff88;
   padding: 6px 0px;
   border-radius: 10000px;
-
   box-shadow: 0 3px 27px 0 #00ff88;
 }
 
@@ -368,7 +376,7 @@ body {
   gap: 8px;
 }
 
-.host_img {
+.host_icon_img {
   border: 1px solid #533c72;
   border-radius: 100%;
   padding: 10px 10px 4px 10px;
@@ -410,4 +418,153 @@ footer {
   font-size: 1rem;
   line-height: 24px;
   opacity: 50%;
+}
+
+@media (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+
+  #about {
+    width: 90%;
+    padding: 40px 0px;
+  }
+
+  .navbar,
+  .banner_container,
+  .number_container,
+  .choose_container,
+  .featured,
+  .host_conatiner {
+    width: 90%;
+  }
+
+  /* Navbar Section Style */
+  .menu ul {
+    display: none;
+  }
+
+  .nav_icon {
+    display: block;
+  }
+
+  .nav_button {
+    display: none;
+  }
+  /* Banner Section Style */
+  #banner {
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .banner_text {
+    margin-top: 24px;
+  }
+
+  .banner_text h1 {
+    font-size: 2.7.5rem;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+
+  .banner_text p {
+    font-size: 1.3rem;
+    padding: 8px 0px 24px;
+    opacity: 80%;
+  }
+
+  .banner_text_btn {
+    margin-top: 24px;
+    gap: 8px;
+  }
+
+  /* About Section Style */
+
+  .about_container h1 {
+    font-size: 2.75rem;
+  }
+
+  .about_container p {
+    line-height: normal;
+    font-size: 1.22rem;
+  }
+
+  .about_container h6 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+
+  /* Number Section Style */
+  .number_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Choose Container Section */
+  .choose_container {
+    padding: 40px 0px;
+  }
+
+  .choose_title h1 {
+    font-size: 2.6rem;
+  }
+
+  .choose_box {
+    gap: 16px;
+  }
+
+  .choose_card1 {
+    padding: 40px !important;
+  }
+  .choose_box {
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5";
+  }
+
+  /* featured section style */
+  .featured {
+    padding: 40px 0px 60px;
+  }
+
+  .featured_title h1 {
+    margin-bottom: 24px;
+    font-size: 2.75rem;
+  }
+
+  .featured_container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Host Section Style */
+  .host_box {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .host_text p {
+    font-size: 1.26rem;
+  }
+
+  .host_icon {
+    justify-content: center;
+  }
+
+  .host_conatiner {
+    padding-bottom: 40px;
+  }
+
+  /* Footer Section Style */
+  footer {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .footer_container {
+  }
 }
