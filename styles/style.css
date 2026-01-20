@@ -295,7 +295,7 @@ body {
 
 .featured_card {
   border-radius: 24px;
-  
+
   background-color: #250d44;
 }
 
@@ -327,3 +327,51 @@ body {
   line-height: 24px;
   color: #00ff88;
 }
+
+/* Host Section Style */
+.host_conatiner {
+  width: 75%;
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.host_title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.host_box {
+  display: flex;
+  padding: 48.5px 40px;
+  background-color: #35116562;
+  border-radius: 40px;
+  text-align: left;
+  gap: 24px;
+}
+
+.host_text h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.host_text p {
+  line-height: 24px;
+  opacity: 40%;
+  padding: 16px 0px;
+}
+
+.host_icon {
+  display: flex;
+  gap: 8px;
+}
+
+.host_img {
+  border: 1px solid #533c72;
+  border-radius: 100%;
+  padding: 10px 10px 4px 10px;
+}
+
+
