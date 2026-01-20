@@ -67,7 +67,7 @@ body {
 /* Navbar Style */
 
 .navbar {
-  width: 62.5%;
+  width: 75%;
   max-width: 1200px;
   margin: 0px auto;
   display: flex;
@@ -104,7 +104,7 @@ body {
 }
 
 .banner_container {
-  width: 62.5%;
+  width: 75%;
   max-width: 1200px;
   margin: 0px auto;
   padding: 101px 0px;
@@ -158,7 +158,7 @@ body {
 
 /* About Section Style */
 #about {
-  width: 62.5%;
+  width: 75%;
   max-width: 1200px;
   margin: 0px auto;
   padding: 50px 0px 80px;
@@ -186,7 +186,7 @@ body {
 
 /* Number Section Start */
 .number_container {
-  width: 62.5%;
+  width: 75%;
   max-width: 1200px;
   margin: 0px auto;
   display: grid;
@@ -211,7 +211,7 @@ body {
   background-color: #230e3d;
 }
 .choose_container {
-  width: 62.5%;
+  width: 75%;
   max-width: 1200px;
   margin: 0px auto;
   text-align: center;
@@ -261,13 +261,69 @@ body {
   border-radius: 40px;
 }
 
-.choose_card h3{
+.choose_card h3 {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 16px 0px;
 }
 
-.choose_card p{
+.choose_card p {
   line-height: 24px;
   opacity: 40%;
+}
+
+/* Featured Section Style */
+.featured {
+  width: 75%;
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 120px 0px;
+}
+
+.featured_title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.featured_container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.featured_card {
+  border-radius: 24px;
+  
+  background-color: #250d44;
+}
+
+.featured_text {
+  text-align: left;
+  padding: 24px;
+}
+
+.featured_text h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.featured_text p {
+  font-size: 1rem;
+  line-height: 24px;
+  padding: 12px 0px;
+  opacity: 40%;
+}
+
+.featured_time {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.featured_time h6 {
+  font-size: 1rem;
+  line-height: 24px;
+  color: #00ff88;
 }
