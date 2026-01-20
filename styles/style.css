@@ -104,7 +104,8 @@ body {
 }
 
 .banner_container {
-  width: 1200px;
+  width: 62.5%;
+  max-width: 1200px;
   margin: 0px auto;
   padding: 101px 0px;
 }
@@ -125,7 +126,7 @@ body {
 
 .banner_btn {
   width: 70px;
-  transform: translate(975%, 60%);
+  transform: translate(835%, 60%);
 }
 
 .banner_btn p {
@@ -157,7 +158,8 @@ body {
 
 /* About Section Style */
 #about {
-  width: 1200px;
+  width: 62.5%;
+  max-width: 1200px;
   margin: 0px auto;
   padding: 50px 0px 80px;
 
@@ -184,7 +186,8 @@ body {
 
 /* Number Section Start */
 .number_container {
-  width: 1200px;
+  width: 62.5%;
+  max-width: 1200px;
   margin: 0px auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -201,4 +204,70 @@ body {
   line-height: 20px;
   opacity: 80%;
   color: #fff;
+}
+
+/* Choose Section Style */
+#choose {
+  background-color: #230e3d;
+}
+.choose_container {
+  width: 62.5%;
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 120px 0px;
+}
+
+.choose_title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.choose_card1 {
+  grid-area: card1;
+  padding: 107.5px 40px !important;
+}
+
+.choose_card2 {
+  grid-area: card2;
+}
+
+.choose_card3 {
+  grid-area: card3;
+}
+
+.choose_card4 {
+  grid-area: card4;
+}
+
+.choose_card5 {
+  grid-area: card5;
+}
+
+.choose_box {
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+    "card1 card2 card2"
+    "card1 card3 card3"
+    "card4 card4 card5";
+  text-align: left;
+}
+
+.choose_card {
+  padding: 40px;
+  background-color: #35116562;
+  border-radius: 40px;
+}
+
+.choose_card h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 16px 0px;
+}
+
+.choose_card p{
+  line-height: 24px;
+  opacity: 40%;
 }
