@@ -374,4 +374,40 @@ body {
   padding: 10px 10px 4px 10px;
 }
 
+/* Footer Section Style */
+footer {
+  background-image: url("../assets/footer-bg.png");
+}
 
+.footer_container {
+  width: 550px;
+  margin: 0px auto;
+  padding: 120px 0px;
+}
+
+.footer_title h1 {
+  font-size: 5rem;
+}
+
+.podcast {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px;
+}
+
+.podcast_card {
+  display: flex;
+  gap: 8px;
+}
+
+.podcast_card p {
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 50%;
+}
+
+.footer_copyright p {
+  font-size: 1rem;
+  line-height: 24px;
+  opacity: 50%;
+}
