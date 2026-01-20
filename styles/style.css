@@ -7,11 +7,9 @@
 /* Body Style */
 body {
   background-color: #1a0b2e;
-}
-
-header {
-  display: flex;
-  justify-content: center;
+  width: 1600px;
+  margin: 0px auto;
+  text-align: center;
 }
 
 /* Shared Style */
@@ -20,7 +18,7 @@ header {
   font-optical-sizing: auto;
 }
 
-.btn_grad {
+.btn1_grad {
   background: linear-gradient(
     to top right,
     #f7e93f 0%,
@@ -36,8 +34,18 @@ header {
   transition: 0.5s;
 }
 
-.btn_grad:hover {
+.btn1_grad:hover {
   background-position: 0 100%;
+}
+
+.btn2_grad {
+  font-weight: 600;
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  padding: 12.5px 16px;
+  border-radius: 10000px;
+  transition: 0.5s;
+  background: transparent;
 }
 
 .text_grad {
@@ -52,14 +60,21 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
+.text_clr {
+  color: #fff;
+}
+
 /* Navbar Style */
+
 .navbar {
   width: 62.5%;
   max-width: 1200px;
+  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 0px;
+  border-bottom: 1px solid #565657;
 }
 
 .logo h1 {
@@ -80,11 +95,58 @@ header {
   font-weight: 600;
 }
 
-.btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #ff6e7f 0%,
-    #bfe9ff 51%,
-    #ff6e7f 100%
-  );
+/* Banner Style */
+
+#banner {
+  background-image: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1200px;
+  margin: 0px auto;
+  padding: 101px 0px;
+}
+
+.banner_img {
+  background-image: url("../assets/hero-circle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.banner_img img {
+  padding: 50px 0px 80px;
+}
+.banner {
+  position: relative;
+}
+
+.banner_btn {
+  top: 0;
+  right: 0;
+  transform: translate(57%, 50%);
+}
+
+.banner_btn p {
+  background-color: #00ff88;
+  width: 70px;
+  padding: 6px 0px;
+  border-radius: 10000px;
+
+  box-shadow: 0 3px 27px 0 #00ff88;
+}
+
+.banner_text {
+  margin-top: 40px;
+}
+
+.banner_text h1 {
+  font-size: 3.75rem;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.banner_text_btn {
+  margin-top: 24px;
+  gap: 8px;
 }
