@@ -127,7 +127,7 @@ body {
   width: 70px;
   transform: translate(975%, 60%);
 }
-  
+
 .banner_btn p {
   background-color: #00ff88;
   padding: 6px 0px;
@@ -180,4 +180,25 @@ body {
   font-weight: normal;
 
   opacity: 80%;
+}
+
+/* Number Section Start */
+.number_container {
+  width: 1200px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 80px 0px 120px;
+}
+
+.number_card h1 {
+  color: #00ff88;
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.number_card p {
+  line-height: 20px;
+  opacity: 80%;
+  color: #fff;
 }
