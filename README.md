@@ -66,7 +66,7 @@ Modify Tailwind CSS utility classes or add custom styles if required.
 ## License
 This project is for personal use, portfolio showcase, or educational purposes.
 
-##Author
+## Author
 Nafiz Alam
 Email: nafizalam@gmail.com
 Location: Dhaka, Bangladesh
