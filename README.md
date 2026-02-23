@@ -59,14 +59,14 @@ git clone <repository-url>
 Open index.html in a web browser to view the website.
 
 ## To Customize
-Update text and headings in index.html.
-Replace images in the assets/ folder.
-Modify Tailwind CSS utility classes or add custom styles if required.
+- Update text and headings in index.html.
+- Replace images in the assets/ folder.
+- Modify Tailwind CSS utility classes or add custom styles if required.
 
 ## License
 This project is for personal use, portfolio showcase, or educational purposes.
 
 ## Author
-Nafiz Alam
-Email: nafizalam@gmail.com
-Location: Dhaka, Bangladesh
+- **Name**: Nafiz Alam
+- **Email**: nafizalam@gmail.com
+- **Location**: Dhaka, Bangladesh
