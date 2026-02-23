@@ -33,23 +33,23 @@
 ---
 
 ## Folder Structure
-TechWave/
-│
-├── index.html # Main HTML file
-├── styles/
-│ └── style.css # Custom CSS file
-└── assets/ # Images and icons
-├── microphone.png
-├── headphone.png
-├── device.png
-├── location.png
-├── resource.png
-├── host.png
-├── spotify.png
-├── apple-podcast.png
-├── youtube-podcast.png
-├── twitter.png
-└── clock.png
+- TechWave/
+- │
+- ├── index.html # Main HTML file
+- ├── styles/
+- │ └── style.css # Custom CSS file
+- └── assets/ # Images and icons
+- ├── microphone.png
+- ├── headphone.png
+- ├── device.png
+- ├── location.png
+- ├── resource.png
+- ├── host.png
+- ├── spotify.png
+- ├── apple-podcast.png
+- ├── youtube-podcast.png
+- ├── twitter.png
+- └── clock.png
 
 ## How to Use
 1. Clone the repository:
@@ -65,7 +65,7 @@ Open index.html in a web browser to view the website.
 
 ## License
 This project is for personal use, portfolio showcase, or educational purposes.
-
+- 
 ## Author
 - **Name**: Nafiz Alam
 - **Email**: nafizalam@gmail.com
